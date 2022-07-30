@@ -1,20 +1,22 @@
-/* Default css start  */
-*{
-    margin: 0;
-    padding: 0;
+html,
+body {
+  height: 100%;
 }
-img{
-    max-width: 100%;
+.mydiv {
+  width:100%;
+  height:100%;
+  color:black;
+  font-weight:bold;
+  animation: myanimation 10s infinite;
 }
-.template-bg{
-    background: #101010;
+@keyframes myanimation {
+  0% {background-color: red;}
+  25%{background-color:yellow;}
+  50%{background-color:green;}
+  75%{background-color:brown;}
+  100% {background-color: red;}
 }
-.bg-normal{
-    background: #161616;
-}
-body p , a {
-    font-weight: 500;
-}
+
 /* Default css end  */
 /* Home-section start  */
 .home-section{
