@@ -11,6 +11,7 @@ body {
   animation: myanimation 10s infinite;
 }
 @keyframes myanimation {
+  brightness(0.5);
   0% {background-color: red;}
   25%{background-color:yellow;}
   50%{background-color:green;}
@@ -23,6 +24,7 @@ body {
 .home-section{
     background: url(images/home.jpg) no-repeat center center;
     height: 100vh;
+    brightness(0.5);
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -30,6 +32,7 @@ body {
 .home-section::after{
     content: "";
     position: absolute;
+    brightness(0.5); 
     top: 0;
     left: 0;
     width: 100%;
@@ -37,7 +40,7 @@ body {
     background: rgba(0, 0, 0, 0.4);
     z-index: -1;
 }
-.home-nav .navbar-brand img{
+.home-nav .navbar-brand img{brightness(0.5);
     width: 110px;
 }
 .home-menu li a{
@@ -115,7 +118,7 @@ body {
     font-weight: 700;
 }
 .kitzu-bar{
-    width: 70px;
+    width: 10px;
     height: 4px;
     background: #009e66;
     margin: auto;
@@ -138,7 +141,7 @@ body {
    0%{
     right: 100%;
    }
-   100%{
+   10%{
     left: 120%;
    }
 }
