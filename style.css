@@ -6,8 +6,8 @@ body {
   width:90%;
   height:90%;
   color:black;
-  brightness:(20%)
-  font-weight:bold;
+  brightness:20%;
+  font-weight:normal;
   animation: myanimation 10s infinite;
 }
 @keyframes myanimation {
