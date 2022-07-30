@@ -5,9 +5,9 @@ body {
 .mydiv {
   width:90%;
   height:90%;
+  brightness(1.75);
   color:black;
-  brightness:20%;
-  font-weight:normal;
+  font-weight:blod;
   animation: myanimation 10s infinite;
 }
 @keyframes myanimation {
