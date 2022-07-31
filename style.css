@@ -12,7 +12,6 @@ body {
   animation: myanimation 10s infinite;
 }
 @keyframes myanimation {
-  background-image: url(images/home.jpg);
   0% {background-color: red;}
   25%{background-color:yellow;
       brightness(0.5);}
