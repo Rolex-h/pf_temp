@@ -14,9 +14,12 @@ body {
 @keyframes myanimation {
   0% {background-color: red;
       transparent 0.5px}
-  25%{background-color:yellow;}
-  50%{background-color:green;}
-  75%{background-color:brown;}
+  25%{background-color:yellow;
+       transparent 0.5px}
+  50%{background-color:green;
+       transparent:0.5px;}
+  75%{background-color:light brown;
+       transparent:0.5px;}
   100% {background-color:light red;}
 }
 
