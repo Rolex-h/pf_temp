@@ -5,16 +5,16 @@ body {
 .mydiv {
   width:100%;
   height:100%;
-  background-image: url(images/home.jpg);
+  
   brightness(0.5);
   color:black;
   font-weight:blod;
   animation: myanimation 10s infinite;
 }
 @keyframes myanimation {
-  0% {background-color: red;}
-  25%{background-color:yellow;
-      brightness(0.5);}
+  0% {background-color: red;
+      transparent 0.5px}
+  25%{background-color:yellow;}
   50%{background-color:green;}
   75%{background-color:brown;}
   100% {background-color:light red;}
